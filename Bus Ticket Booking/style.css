@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+    background-color: #23a9da;
+}
+.body{
+    background-color: #9df4ee;
+}
+.content{
+    text-align: left;
+    background-color: #9df4ee;
+}
+.footer{
+    background-color: #23a9da;
+}
