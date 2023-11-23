@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Complaint Management System</title>
+</head>
+<body>
+    <header>
+        <h1>Online Complaint Registration</h1>
+    </header>
+
+    <section id="user-section">
+        <h2>User Dashboard</h2>
+        <form id="complaint-form">
+            <label for="complaint">Type your complaint:</label>
+            <textarea id="complaint" name="complaint" required></textarea>
+
+            <label for="location">Mark your location:</label>
+            <div id="map"></div>
+
+            <button type="submit">Submit Complaint</button>
+        </form>
+
+        <div id="complaint-status">
+            <h3>Complaint Status</h3>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Complaint Management System</p>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
