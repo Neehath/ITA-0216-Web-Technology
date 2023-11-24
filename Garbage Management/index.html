@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garbage Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <a href="#"><img src="logo.png" alt="Garbage Management Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="highlight"><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Garbage Collection Request Form</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="location">Pickup Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="waste-type">Type of Waste:</label>
+                <select id="waste-type" name="waste-type" required>
+                    <option value="organic">Organic</option>
+                    <option value="plastic">Plastic</option>
+                    <option value="paper">Paper</option>
+                    <option value="metal">Metal</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="quantity">Quantity (in kg):</label>
+                <input type="number" id="quantity" name="quantity" required>
+
+                <input type="submit" value="Submit Request">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
